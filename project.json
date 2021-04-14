@@ -1,0 +1,23 @@
+{
+    "name": "智慧树计时脚本",
+    "main": "main.js",
+    "ignore": [
+        "build"
+    ],
+    "packageName": "com.yushao.zhs",
+    "versionName": "2.6.alpha2",
+    "versionCode": 2,
+    "encryptLevel": 1, 
+    "icon": "res/icon.png",
+    "launchConfig": {
+        "displaySplash": false, 
+        "hideLogs": true, 
+        "splashIcon": "res/splashIcon.png", 
+        "splashText": "智慧树计时脚本",
+        "stableMode": false
+    },
+    "optimization": { 
+        "removeOpenCv": true, 
+        "unusedResources": true
+    }
+}
